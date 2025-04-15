@@ -1,8 +1,4 @@
-Certainly! Below is the complete `README.md` file for your **Personal Data Visualization Expert** project, formatted to align with GitHub standards.
-
----
-
-# Personal Data Visualization Expert
+# Personal Data Visualization Assistant
 
 Analyze and visualize your data effortlessly using natural language or manual controls.
 
