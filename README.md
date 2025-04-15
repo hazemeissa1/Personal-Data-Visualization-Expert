@@ -1,4 +1,4 @@
-# Personal Data Visualization Assistant
+# Personal Data Visualization Assistant (Open-AI/Ollama)
 
 Analyze and visualize your data effortlessly using natural language or manual controls.
 
