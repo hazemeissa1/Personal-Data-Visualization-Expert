@@ -2,7 +2,13 @@
 
 Analyze and visualize your data effortlessly using natural language or manual controls.
 
-![App Screenshot](screenshot.png) <!-- Replace with your actual screenshot -->
+## Screenshots
+### Dashboard 
+![LLM Mode Example](https://github.com/user-attachments/assets/4f05425f-901a-47c1-ac21-23ccfbd3b787)
+### Dashboard
+![LLM Mode Example](https://github.com/user-attachments/assets/e60670af-affe-489c-be01-9e7a231baaeb)
+
+
 
 ## Table of Contents
 
@@ -99,27 +105,13 @@ Optional dependencies for LLM mode:
 
 3. **Install Dependencies:**
 
-   If there's a `requirements.txt` file:
+   `requirements.txt` file:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-   If not, create one with the following content:
-
-   ```text
-   streamlit==1.35.0
-   pandas==2.2.2
-   plotly==5.22.0
-   seaborn==0.13.2
-   openai==1.30.1
-   requests==2.32.3
-   ```
-
-   Then run:
-
-   ```bash
-   pip install -r requirements.txt
+   
    ```
 
 4. **Set Up Ollama (Optional):**
@@ -202,11 +194,13 @@ The app will open in your default web browser at `http://localhost:8501`.
 ## Project Structure
 
 ```bash
-├── main.py                 # Streamlit app main entry
-├── utils.py                # Utility functions (LLM, plotting, filtering)
-├── requirements.txt        # Dependencies
-├── README.md               # This file
-├── screenshots/            # Optional screenshots folder
+├── app.py                # Main Streamlit app
+├── data_processor.py     # Data loading, validation, and preparation
+├── llm_handler.py        # LLM prompt construction, querying, and parsing
+├── visualizer.py         # Visualization and summary statistics generation
+├── ui_components.py      # UI rendering functions
+├── requirements.txt      # Dependencies
+├── README.md             # Basic setup instructions
 ```
 
 ---
@@ -272,8 +266,8 @@ See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-Made with ❤️ by [Your Name]  
-Feel free to reach out on [LinkedIn](https://linkedin.com/in/yourname) or open an issue.
+Made by Hazem Eissa  
+Feel free to reach out on [LinkedIn](https://linkedin.com/in/hazemeissa) or open an issue.
 
 ---
 
